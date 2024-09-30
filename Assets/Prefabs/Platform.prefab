@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7921954276207858558, guid: 4819116e394a2844a86c92969269440f, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     - target: {fileID: -7523785971202708763, guid: 4819116e394a2844a86c92969269440f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -67,5 +71,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -7921954276207858558, guid: 4819116e394a2844a86c92969269440f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4674091142202647132}
+    - targetCorrespondingSourceObject: {fileID: -7921954276207858558, guid: 4819116e394a2844a86c92969269440f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3342296137924563237}
   m_SourcePrefab: {fileID: 100100000, guid: 4819116e394a2844a86c92969269440f, type: 3}
+--- !u!1 &7009368668840758808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7921954276207858558, guid: 4819116e394a2844a86c92969269440f, type: 3}
+  m_PrefabInstance: {fileID: 8307407537712390810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4674091142202647132
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009368668840758808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.5, z: 4}
+  m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!114 &3342296137924563237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009368668840758808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68faf90d5a7762d459fc8fdcaf2df50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporter: {fileID: 0}
+  targetSceneId: 0
